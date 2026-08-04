@@ -18,6 +18,10 @@ class MainActivity : AppCompatActivity() {
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
+
+            //val boton: Button = findViewById<Button>(R.id.botn_enviar_dato)
+
+
         }
 
         val boton = findViewById<Button>(R.id.boton_enviar_dato)
